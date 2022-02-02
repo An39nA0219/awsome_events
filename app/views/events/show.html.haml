@@ -29,9 +29,6 @@
     - elsif logged_in?
       %button.btn.btn-primary.btn-lg.btn-block{ "data-toggle": "modal", "data-target": "#createTicket" }
         参加する
-    - if logged_in?
-      %button.btn.btn-primary.btn-lg.btn-block{ "data-toggle": "modal", "data-target": "#createTicket" }
-        参加する
       %div.modal.fade#createTicket
         .modal-dialog
           .modal-content
